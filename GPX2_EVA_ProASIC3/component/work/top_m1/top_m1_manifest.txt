@@ -1,0 +1,63 @@
+Microsemi Corporation - Microsemi Libero Software Release v11.9 SP6 (Version 11.9.6.7)
+
+Date      :  Wed Nov 18 18:31:53 2026
+Project   :  C:\Users\kamil\OneDrive\Pulpit\cortex_m1_test
+Component :  top_m1
+Family    :  ProASIC3
+
+
+HDL source files for all Synthesis and Simulation tools:
+    C:/Users/kamil/OneDrive/Pulpit/cortex_m1_test/component/Actel/DirectCore/CORESPI/5.2.104/rtl/vlog/core/corespi.v
+    C:/Users/kamil/OneDrive/Pulpit/cortex_m1_test/component/Actel/DirectCore/CORESPI/5.2.104/rtl/vlog/core/spi.v
+    C:/Users/kamil/OneDrive/Pulpit/cortex_m1_test/component/Actel/DirectCore/CORESPI/5.2.104/rtl/vlog/core/spi_chanctrl.v
+    C:/Users/kamil/OneDrive/Pulpit/cortex_m1_test/component/Actel/DirectCore/CORESPI/5.2.104/rtl/vlog/core/spi_clockmux.v
+    C:/Users/kamil/OneDrive/Pulpit/cortex_m1_test/component/Actel/DirectCore/CORESPI/5.2.104/rtl/vlog/core/spi_control.v
+    C:/Users/kamil/OneDrive/Pulpit/cortex_m1_test/component/Actel/DirectCore/CORESPI/5.2.104/rtl/vlog/core/spi_fifo.v
+    C:/Users/kamil/OneDrive/Pulpit/cortex_m1_test/component/Actel/DirectCore/CORESPI/5.2.104/rtl/vlog/core/spi_rf.v
+    C:/Users/kamil/OneDrive/Pulpit/cortex_m1_test/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v
+    C:/Users/kamil/OneDrive/Pulpit/cortex_m1_test/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3_iaddr_reg.v
+    C:/Users/kamil/OneDrive/Pulpit/cortex_m1_test/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3_muxptob3.v
+    C:/Users/kamil/OneDrive/Pulpit/cortex_m1_test/component/work/top_m1/COREABC_0/coreparameters_tgi.v
+    C:/Users/kamil/OneDrive/Pulpit/cortex_m1_test/component/work/top_m1/COREABC_0/rtl/vlog/core/acmtable.v
+    C:/Users/kamil/OneDrive/Pulpit/cortex_m1_test/component/work/top_m1/COREABC_0/rtl/vlog/core/coreabc.v
+    C:/Users/kamil/OneDrive/Pulpit/cortex_m1_test/component/work/top_m1/COREABC_0/rtl/vlog/core/debugblk.v
+    C:/Users/kamil/OneDrive/Pulpit/cortex_m1_test/component/work/top_m1/COREABC_0/rtl/vlog/core/instructions.v
+    C:/Users/kamil/OneDrive/Pulpit/cortex_m1_test/component/work/top_m1/COREABC_0/rtl/vlog/core/instructnvm_bb.v
+    C:/Users/kamil/OneDrive/Pulpit/cortex_m1_test/component/work/top_m1/COREABC_0/rtl/vlog/core/instructram.v
+    C:/Users/kamil/OneDrive/Pulpit/cortex_m1_test/component/work/top_m1/COREABC_0/rtl/vlog/core/iram512x9_pa3.v
+    C:/Users/kamil/OneDrive/Pulpit/cortex_m1_test/component/work/top_m1/COREABC_0/rtl/vlog/core/ram128x8_rtl.v
+    C:/Users/kamil/OneDrive/Pulpit/cortex_m1_test/component/work/top_m1/COREABC_0/rtl/vlog/core/ram256x16_pa3.v
+    C:/Users/kamil/OneDrive/Pulpit/cortex_m1_test/component/work/top_m1/COREABC_0/rtl/vlog/core/ram256x8_rtl.v
+    C:/Users/kamil/OneDrive/Pulpit/cortex_m1_test/component/work/top_m1/COREABC_0/rtl/vlog/core/ramblocks.v
+    C:/Users/kamil/OneDrive/Pulpit/cortex_m1_test/component/work/top_m1/COREABC_0/rtl/vlog/core/support.v
+    C:/Users/kamil/OneDrive/Pulpit/cortex_m1_test/component/work/top_m1/CoreUARTapb_0/rtl/vlog/core/Clock_gen.v
+    C:/Users/kamil/OneDrive/Pulpit/cortex_m1_test/component/work/top_m1/CoreUARTapb_0/rtl/vlog/core/CoreUART.v
+    C:/Users/kamil/OneDrive/Pulpit/cortex_m1_test/component/work/top_m1/CoreUARTapb_0/rtl/vlog/core/CoreUARTapb.v
+    C:/Users/kamil/OneDrive/Pulpit/cortex_m1_test/component/work/top_m1/CoreUARTapb_0/rtl/vlog/core/Rx_async.v
+    C:/Users/kamil/OneDrive/Pulpit/cortex_m1_test/component/work/top_m1/CoreUARTapb_0/rtl/vlog/core/Tx_async.v
+    C:/Users/kamil/OneDrive/Pulpit/cortex_m1_test/component/work/top_m1/CoreUARTapb_0/rtl/vlog/core/fifo_256x8.v
+    C:/Users/kamil/OneDrive/Pulpit/cortex_m1_test/component/work/top_m1/top_m1.v
+
+Stimulus files for all Simulation tools:
+    C:/Users/kamil/OneDrive/Pulpit/cortex_m1_test/component/work/top_m1/CoreUARTapb_0/mti/scripts/bfmtovec_compile.do
+    C:/Users/kamil/OneDrive/Pulpit/cortex_m1_test/component/work/top_m1/CoreUARTapb_0/mti/scripts/coreuart_usertb_apb_master.bfm
+    C:/Users/kamil/OneDrive/Pulpit/cortex_m1_test/component/work/top_m1/CoreUARTapb_0/mti/scripts/coreuart_usertb_include.bfm
+    C:/Users/kamil/OneDrive/Pulpit/cortex_m1_test/component/work/top_m1/CoreUARTapb_0/mti/scripts/wave_vlog_amba.do
+    C:/Users/kamil/OneDrive/Pulpit/cortex_m1_test/component/work/top_m1/subsystem.bfm
+
+    C:/Users/kamil/OneDrive/Pulpit/cortex_m1_test/component/work/top_m1/COREABC_0/rtl/vlog/test/apbmodel.v
+    C:/Users/kamil/OneDrive/Pulpit/cortex_m1_test/component/work/top_m1/COREABC_0/rtl/vlog/test/testbench.v
+    C:/Users/kamil/OneDrive/Pulpit/cortex_m1_test/component/work/top_m1/COREABC_0/rtl/vlog/test/testsupport.v
+    C:/Users/kamil/OneDrive/Pulpit/cortex_m1_test/component/work/top_m1/CoreUARTapb_0/coreparameters.v
+    C:/Users/kamil/OneDrive/Pulpit/cortex_m1_test/component/work/top_m1/CoreUARTapb_0/rtl/vlog/amba_bfm/bfm_ahbl.v
+    C:/Users/kamil/OneDrive/Pulpit/cortex_m1_test/component/work/top_m1/CoreUARTapb_0/rtl/vlog/amba_bfm/bfm_ahblapb.v
+    C:/Users/kamil/OneDrive/Pulpit/cortex_m1_test/component/work/top_m1/CoreUARTapb_0/rtl/vlog/amba_bfm/bfm_ahbslave.v
+    C:/Users/kamil/OneDrive/Pulpit/cortex_m1_test/component/work/top_m1/CoreUARTapb_0/rtl/vlog/amba_bfm/bfm_ahbslaveext.v
+    C:/Users/kamil/OneDrive/Pulpit/cortex_m1_test/component/work/top_m1/CoreUARTapb_0/rtl/vlog/amba_bfm/bfm_ahbtoapb.v
+    C:/Users/kamil/OneDrive/Pulpit/cortex_m1_test/component/work/top_m1/CoreUARTapb_0/rtl/vlog/amba_bfm/bfm_apb.v
+    C:/Users/kamil/OneDrive/Pulpit/cortex_m1_test/component/work/top_m1/CoreUARTapb_0/rtl/vlog/amba_bfm/bfm_apbslave.v
+    C:/Users/kamil/OneDrive/Pulpit/cortex_m1_test/component/work/top_m1/CoreUARTapb_0/rtl/vlog/amba_bfm/bfm_apbslaveext.v
+    C:/Users/kamil/OneDrive/Pulpit/cortex_m1_test/component/work/top_m1/CoreUARTapb_0/rtl/vlog/amba_bfm/bfm_apbtoapb.v
+    C:/Users/kamil/OneDrive/Pulpit/cortex_m1_test/component/work/top_m1/CoreUARTapb_0/rtl/vlog/amba_bfm/bfm_main.v
+    C:/Users/kamil/OneDrive/Pulpit/cortex_m1_test/component/work/top_m1/CoreUARTapb_0/rtl/vlog/test/user/testbench.v
+

@@ -1,0 +1,1024 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet type="text/xsl" href="datasheet.xsl"?>
+<datasheet>
+  <header>top_m1</header>
+  <project-settings>
+    <fam>ProASIC3</fam>
+    <die>A3P250</die>
+    <package>100 VQFP</package>
+    <speed-grade>STD</speed-grade>
+    <voltage>1.5</voltage>
+    <hdl-type>Verilog</hdl-type>
+    <project-description>
+    </project-description>
+    <location>C:/Users/kamil/OneDrive/Pulpit/cortex_m1_test/component/work/top_m1</location>
+    <state>GENERATED ( Wed Nov 18 18:31:53 2026 )</state>
+    <swide-toolchain>SoftConsole workspace has not been generated</swide-toolchain>
+  </project-settings>
+  <site-map>
+  </site-map>
+  <fileset>
+    <name>HDL File(s)</name>
+    <file>C:\Users\kamil\OneDrive\Pulpit\cortex_m1_test\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v</file>
+    <file>C:\Users\kamil\OneDrive\Pulpit\cortex_m1_test\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3_iaddr_reg.v</file>
+    <file>C:\Users\kamil\OneDrive\Pulpit\cortex_m1_test\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3_muxptob3.v</file>
+    <file>C:\Users\kamil\OneDrive\Pulpit\cortex_m1_test\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\corespi.v</file>
+    <file>C:\Users\kamil\OneDrive\Pulpit\cortex_m1_test\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi.v</file>
+    <file>C:\Users\kamil\OneDrive\Pulpit\cortex_m1_test\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_chanctrl.v</file>
+    <file>C:\Users\kamil\OneDrive\Pulpit\cortex_m1_test\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_clockmux.v</file>
+    <file>C:\Users\kamil\OneDrive\Pulpit\cortex_m1_test\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_control.v</file>
+    <file>C:\Users\kamil\OneDrive\Pulpit\cortex_m1_test\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_fifo.v</file>
+    <file>C:\Users\kamil\OneDrive\Pulpit\cortex_m1_test\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_rf.v</file>
+    <file>C:\Users\kamil\OneDrive\Pulpit\cortex_m1_test\component\work\top_m1\COREABC_0\coreparameters_tgi.v</file>
+    <file>C:\Users\kamil\OneDrive\Pulpit\cortex_m1_test\component\work\top_m1\COREABC_0\rtl\vlog\core\acmtable.v</file>
+    <file>C:\Users\kamil\OneDrive\Pulpit\cortex_m1_test\component\work\top_m1\COREABC_0\rtl\vlog\core\coreabc.v</file>
+    <file>C:\Users\kamil\OneDrive\Pulpit\cortex_m1_test\component\work\top_m1\COREABC_0\rtl\vlog\core\debugblk.v</file>
+    <file>C:\Users\kamil\OneDrive\Pulpit\cortex_m1_test\component\work\top_m1\COREABC_0\rtl\vlog\core\instructions.v</file>
+    <file>C:\Users\kamil\OneDrive\Pulpit\cortex_m1_test\component\work\top_m1\COREABC_0\rtl\vlog\core\instructnvm_bb.v</file>
+    <file>C:\Users\kamil\OneDrive\Pulpit\cortex_m1_test\component\work\top_m1\COREABC_0\rtl\vlog\core\instructram.v</file>
+    <file>C:\Users\kamil\OneDrive\Pulpit\cortex_m1_test\component\work\top_m1\COREABC_0\rtl\vlog\core\iram512x9_pa3.v</file>
+    <file>C:\Users\kamil\OneDrive\Pulpit\cortex_m1_test\component\work\top_m1\COREABC_0\rtl\vlog\core\ram128x8_rtl.v</file>
+    <file>C:\Users\kamil\OneDrive\Pulpit\cortex_m1_test\component\work\top_m1\COREABC_0\rtl\vlog\core\ram256x16_pa3.v</file>
+    <file>C:\Users\kamil\OneDrive\Pulpit\cortex_m1_test\component\work\top_m1\COREABC_0\rtl\vlog\core\ram256x8_rtl.v</file>
+    <file>C:\Users\kamil\OneDrive\Pulpit\cortex_m1_test\component\work\top_m1\COREABC_0\rtl\vlog\core\ramblocks.v</file>
+    <file>C:\Users\kamil\OneDrive\Pulpit\cortex_m1_test\component\work\top_m1\COREABC_0\rtl\vlog\core\support.v</file>
+    <file>C:\Users\kamil\OneDrive\Pulpit\cortex_m1_test\component\work\top_m1\CoreUARTapb_0\rtl\vlog\core\Clock_gen.v</file>
+    <file>C:\Users\kamil\OneDrive\Pulpit\cortex_m1_test\component\work\top_m1\CoreUARTapb_0\rtl\vlog\core\CoreUART.v</file>
+    <file>C:\Users\kamil\OneDrive\Pulpit\cortex_m1_test\component\work\top_m1\CoreUARTapb_0\rtl\vlog\core\CoreUARTapb.v</file>
+    <file>C:\Users\kamil\OneDrive\Pulpit\cortex_m1_test\component\work\top_m1\CoreUARTapb_0\rtl\vlog\core\fifo_256x8.v</file>
+    <file>C:\Users\kamil\OneDrive\Pulpit\cortex_m1_test\component\work\top_m1\CoreUARTapb_0\rtl\vlog\core\Rx_async.v</file>
+    <file>C:\Users\kamil\OneDrive\Pulpit\cortex_m1_test\component\work\top_m1\CoreUARTapb_0\rtl\vlog\core\Tx_async.v</file>
+    <file>C:\Users\kamil\OneDrive\Pulpit\cortex_m1_test\component\work\top_m1\top_m1.v</file>
+    <file>C:\Users\kamil\OneDrive\Pulpit\cortex_m1_test\hdl\CH1_ID.v</file>
+    <file>C:\Users\kamil\OneDrive\Pulpit\cortex_m1_test\hdl\falling_edge_detector.v</file>
+    <file>C:\Users\kamil\OneDrive\Pulpit\cortex_m1_test\hdl\fifo_apb_bridge.v</file>
+    <file>C:\Users\kamil\OneDrive\Pulpit\cortex_m1_test\smartgen\INFRAME_FIFO1\INFRAME_FIFO1.v</file>
+    <file>C:\Users\kamil\OneDrive\Pulpit\cortex_m1_test\smartgen\INREG_CH1\INREG_CH1.v</file>
+    <file>C:\Users\kamil\OneDrive\Pulpit\cortex_m1_test\smartgen\PLL_clock\PLL_clock.v</file>
+  </fileset>
+  <io>
+    <port-name>SPISS</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVCMOS15</io-standard>
+  </io>
+  <io>
+    <port-name>OSC_EN</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVCMOS15</io-standard>
+  </io>
+  <io>
+    <port-name>LCLKOUTP_TDC</port-name>
+    <direction>IN</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVCMOS15</io-standard>
+  </io>
+  <io>
+    <port-name>LCLKINN_TDC</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVCMOS15</io-standard>
+  </io>
+  <io>
+    <port-name>LCLKOUTN_TDC</port-name>
+    <direction>IN</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVCMOS15</io-standard>
+  </io>
+  <io>
+    <port-name>SDO1N</port-name>
+    <direction>IN</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVCMOS15</io-standard>
+  </io>
+  <io>
+    <port-name>RX</port-name>
+    <direction>IN</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVCMOS15</io-standard>
+  </io>
+  <io>
+    <port-name>CLK_X2_5MHz</port-name>
+    <direction>IN</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVCMOS15</io-standard>
+  </io>
+  <io>
+    <port-name>SPISDO</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVCMOS15</io-standard>
+  </io>
+  <io>
+    <port-name>FRAME1P</port-name>
+    <direction>IN</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVCMOS15</io-standard>
+  </io>
+  <io>
+    <port-name>SPISDI</port-name>
+    <direction>IN</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVCMOS15</io-standard>
+  </io>
+  <io>
+    <port-name>FRAME1N</port-name>
+    <direction>IN</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVCMOS15</io-standard>
+  </io>
+  <io>
+    <port-name>TX</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVCMOS15</io-standard>
+  </io>
+  <io>
+    <port-name>LCLKINP_TDC</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVCMOS15</io-standard>
+  </io>
+  <io>
+    <port-name>SPISCLKO</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVCMOS15</io-standard>
+  </io>
+  <io>
+    <port-name>SDO1P</port-name>
+    <direction>IN</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVCMOS15</io-standard>
+  </io>
+  <core>
+    <core-name>CH1_ID_0</core-name>
+  </core>
+  <core type="AdlibModule">
+    <core-type>AdlibModule</core-type>
+    <core-exttype>CLKINT</core-exttype>
+    <core-name>CLKINT_0</core-name>
+  </core>
+  <core type="SpiritModule">
+    <core-exttype>IP</core-exttype>
+    <core-type>SpiritModule</core-type>
+    <core-vendor>Actel</core-vendor>
+    <core-lib>DirectCore</core-lib>
+    <core-intname>COREABC</core-intname>
+    <core-ver>4.1.111</core-ver>
+    <core-desc>CoreABC (APB Bus Controller) is a simple, configurable, low gate count, programmable state machine/controller primarily targeted towards the implementation of AMBA (Advanced Microcontroller Bus Architecture) APB (Advanced Peripheral Bus) based designs. It is particularly suitable where:
+
+- a programmable controller is required but a "full blown" CPU such as a Core8051s or Cortex-M1 is not needed or cannot be justified due to cost or resource/size constraints;
+- a "full blown" CPU based system requires a CoreABC based programmable "offload engine/coprocessor" subsystem for performance reasons;
+- an Microsemi Fusion system using, for example, CoreAI, CorePWM etc. requires programmable control either as a standalone design or as a Fusion analog "offload engine/coprocessor" for a larger CPU based system.
+
+CoreABC is available through the Libero IDE IP Catalog through which it can be downloaded from a remote web based repository and installed into the user's local vault ready for use. It operates natively within the SmartDesign design entry environment allowing it to be easily instantiated, configured, connected to other IP core instances and generated ready for simulation, synthesis etc.
+CoreABC is an AMBA3 APB Initiator which can connect to and manage any APB Target peripherals via an AMBA3 APB bus fabric component such as CoreAPB3.
+
+CoreABC supports a comprehensive assembler based configurable instruction set architecture and extensive and flexible configuration of size and feature options allowing it to be tuned to meet the resource constraints and processing power requirements of a wide variety of applications.
+CoreABC supports three program storage modes:
+
+- "Hard" mode: program image stored in an internal ROM implemented in FPGA fabric tiles;
+- "Soft" mode: program image stored in Microsemi FPGA RAM blocks which are initialized at runtime from the binary image stored in Fusion NVM or an external flash memory;
+- "NVM" mode (Fusion only): program image stored in and executed directly from Fusion NVM.
+</core-desc>
+    <core-param>
+      <param-name>NVM with calibration data:</param-name>
+      <param-value>true</param-value>
+      <param-hdlname>ACT_CALIBRATIONDATA</param-hdlname>
+      <param-hdlvalue>1</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>APB Slot Size:</param-name>
+      <param-value>256 locations</param-value>
+      <param-hdlname>APB_AWIDTH</param-hdlname>
+      <param-hdlvalue>8</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>APB Data Bus Width:</param-name>
+      <param-value>8</param-value>
+      <param-hdlname>APB_DWIDTH</param-hdlname>
+      <param-hdlvalue>8</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Number of APB Slots:</param-name>
+      <param-value>3</param-value>
+      <param-hdlname>APB_SDEPTH</param-hdlname>
+      <param-hdlvalue>3</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>APB Timeout Count:</param-name>
+      <param-value>80</param-value>
+      <param-hdlname>APB_TIMEOUT_COUNT</param-hdlname>
+      <param-hdlvalue>80</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Verbose Simulation Log:</param-name>
+      <param-value>true</param-value>
+      <param-hdlname>DEBUG</param-hdlname>
+      <param-hdlvalue>1</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>APBWRT ACM</param-name>
+      <param-value>false</param-value>
+      <param-hdlname>EN_ACM</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>ADD, SUB, DEC, CMPLEQ</param-name>
+      <param-value>true</param-value>
+      <param-hdlname>EN_ADD</param-hdlname>
+      <param-hdlvalue>1</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>ALU Operations from Memory:</param-name>
+      <param-value>false</param-value>
+      <param-hdlname>EN_ALURAM</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>AND, BITCLR, BITTST</param-name>
+      <param-value>true</param-value>
+      <param-hdlname>EN_AND</param-hdlname>
+      <param-hdlvalue>1</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>CALL, RETURN, RETISR</param-name>
+      <param-value>false</param-value>
+      <param-hdlname>EN_CALL</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Supported Data Sources:</param-name>
+      <param-value>Accumulator and Immediate</param-value>
+      <param-hdlname>EN_DATAM</param-hdlname>
+      <param-hdlvalue>2</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>INC</param-name>
+      <param-value>true</param-value>
+      <param-hdlname>EN_INC</param-hdlname>
+      <param-hdlvalue>1</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>APB Indirect Addressing:</param-name>
+      <param-value>false</param-value>
+      <param-hdlname>EN_INDIRECT</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Interrupt Support:</param-name>
+      <param-value>Disabled</param-value>
+      <param-hdlname>EN_INT</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>IOREAD</param-name>
+      <param-value>true</param-value>
+      <param-hdlname>EN_IOREAD</param-hdlname>
+      <param-hdlvalue>1</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>IOWRT</param-name>
+      <param-value>true</param-value>
+      <param-hdlname>EN_IOWRT</param-hdlname>
+      <param-hdlvalue>1</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>MULT</param-name>
+      <param-value>Not Implemented</param-value>
+      <param-hdlname>EN_MULT</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>OR, BITSET</param-name>
+      <param-value>true</param-value>
+      <param-hdlname>EN_OR</param-hdlname>
+      <param-hdlvalue>1</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>PUSH, POP</param-name>
+      <param-value>false</param-value>
+      <param-hdlname>EN_PUSH</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Internal Data/Stack Memory:</param-name>
+      <param-value>false</param-value>
+      <param-hdlname>EN_RAM</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>ECC support in Data/Stack Memory:</param-name>
+      <param-value>false</param-value>
+      <param-hdlname>EN_RAM_ECC</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>SHL, ROL</param-name>
+      <param-value>false</param-value>
+      <param-hdlname>EN_SHL</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>SHR, ROR</param-name>
+      <param-value>false</param-value>
+      <param-hdlname>EN_SHR</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>XOR, CMP</param-name>
+      <param-value>true</param-value>
+      <param-hdlname>EN_XOR</param-hdlname>
+      <param-hdlvalue>1</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>FPGA Family:</param-name>
+      <param-value>ProASIC3</param-value>
+      <param-hdlname>FAMILY</param-hdlname>
+      <param-hdlvalue>15</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>High Reliability:</param-name>
+      <param-value>false</param-value>
+      <param-hdlname>HI_REL</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Maximum Number of Instructions:</param-name>
+      <param-value>128</param-value>
+      <param-hdlname>ICWIDTH</param-hdlname>
+      <param-hdlvalue>7</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Number of I/O Flags:</param-name>
+      <param-value>3</param-value>
+      <param-hdlname>IFWIDTH</param-hdlname>
+      <param-hdlvalue>3</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Number of I/O Inputs:</param-name>
+      <param-value>5</param-value>
+      <param-hdlname>IIWIDTH</param-hdlname>
+      <param-hdlvalue>5</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Instruction Memory Access</param-name>
+      <param-value>None</param-value>
+      <param-hdlname>IMEM_APB_ACCESS</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>
+      </param-name>
+      <param-value>9</param-value>
+      <param-hdlname>INITDATAWIDTH</param-hdlname>
+      <param-hdlvalue>9</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Initialization Width:</param-name>
+      <param-value>11</param-value>
+      <param-hdlname>INITWIDTH</param-hdlname>
+      <param-hdlvalue>11</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Instruction Store:</param-name>
+      <param-value>Hard (FPGA Tiles)</param-value>
+      <param-hdlname>INSMODE</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Invalid Stack Access:</param-name>
+      <param-value>true</param-value>
+      <param-hdlname>INVALID_STACK_ACC</param-hdlname>
+      <param-hdlvalue>1</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Number of I/O Outputs:</param-name>
+      <param-value>1</param-value>
+      <param-hdlname>IOWIDTH</param-hdlname>
+      <param-hdlvalue>1</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>ISR Address:</param-name>
+      <param-value>1</param-value>
+      <param-hdlname>ISRADDR</param-hdlname>
+      <param-hdlvalue>1</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>
+      </param-name>
+      <param-value>32</param-value>
+      <param-hdlname>MAX_NVMDWIDTH</param-hdlname>
+      <param-hdlvalue>32</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Stack Size:</param-name>
+      <param-value>16</param-value>
+      <param-hdlname>STWIDTH</param-hdlname>
+      <param-hdlvalue>4</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Test Mode:</param-name>
+      <param-value>User  configured code</param-value>
+      <param-hdlname>TESTMODE</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>
+      </param-name>
+      <param-value>16</param-value>
+      <param-hdlname>UNIQ_STRING_LENGTH</param-hdlname>
+      <param-hdlvalue>16</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Z Register Size (Bits):</param-name>
+      <param-value>5</param-value>
+      <param-hdlname>ZRWIDTH</param-hdlname>
+      <param-hdlvalue>5</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-name>COREABC_0</core-name>
+  </core>
+  <core type="SpiritModule">
+    <core-exttype>IP</core-exttype>
+    <core-type>SpiritModule</core-type>
+    <core-vendor>Actel</core-vendor>
+    <core-lib>DirectCore</core-lib>
+    <core-intname>CoreAPB3</core-intname>
+    <core-ver>4.2.100</core-ver>
+    <core-desc>
+The CoreAPB3 component implements an APB3 (AMBA3 APB) fabric, which is backwards compatible with APB2 slave peripherals.There is one APB3 Master interface.</core-desc>
+    <core-param>
+      <param-name>APB Master Data Bus Width</param-name>
+      <param-value>8-bit</param-value>
+      <param-hdlname>APB_DWIDTH</param-hdlname>
+      <param-hdlvalue>8</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Slot 0:</param-name>
+      <param-value>true</param-value>
+      <param-hdlname>APBSLOT0ENABLE</param-hdlname>
+      <param-hdlvalue>1</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Slot 1:</param-name>
+      <param-value>true</param-value>
+      <param-hdlname>APBSLOT1ENABLE</param-hdlname>
+      <param-hdlvalue>1</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Slot 2:</param-name>
+      <param-value>true</param-value>
+      <param-hdlname>APBSLOT2ENABLE</param-hdlname>
+      <param-hdlvalue>1</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Slot 3:</param-name>
+      <param-value>false</param-value>
+      <param-hdlname>APBSLOT3ENABLE</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Slot 4:</param-name>
+      <param-value>false</param-value>
+      <param-hdlname>APBSLOT4ENABLE</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Slot 5:</param-name>
+      <param-value>false</param-value>
+      <param-hdlname>APBSLOT5ENABLE</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Slot 6:</param-name>
+      <param-value>false</param-value>
+      <param-hdlname>APBSLOT6ENABLE</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Slot 7:</param-name>
+      <param-value>false</param-value>
+      <param-hdlname>APBSLOT7ENABLE</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Slot 8:</param-name>
+      <param-value>false</param-value>
+      <param-hdlname>APBSLOT8ENABLE</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Slot 9:</param-name>
+      <param-value>false</param-value>
+      <param-hdlname>APBSLOT9ENABLE</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Slot 10:</param-name>
+      <param-value>false</param-value>
+      <param-hdlname>APBSLOT10ENABLE</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Slot 11:</param-name>
+      <param-value>false</param-value>
+      <param-hdlname>APBSLOT11ENABLE</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Slot 12:</param-name>
+      <param-value>false</param-value>
+      <param-hdlname>APBSLOT12ENABLE</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Slot 13:</param-name>
+      <param-value>false</param-value>
+      <param-hdlname>APBSLOT13ENABLE</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Slot 14:</param-name>
+      <param-value>false</param-value>
+      <param-hdlname>APBSLOT14ENABLE</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Slot 15:</param-name>
+      <param-value>false</param-value>
+      <param-hdlname>APBSLOT15ENABLE</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>FPGA Family:</param-name>
+      <param-value>ProASIC3</param-value>
+      <param-hdlname>FAMILY</param-hdlname>
+      <param-hdlvalue>15</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Indirect Addressing:</param-name>
+      <param-value>Not in use</param-value>
+      <param-hdlname>IADDR_OPTION</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Number of address bits driven by master:</param-name>
+      <param-value>12</param-value>
+      <param-hdlname>MADDR_BITS</param-hdlname>
+      <param-hdlvalue>12</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Slot 0:</param-name>
+      <param-value>false</param-value>
+      <param-hdlname>SC_0</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Slot 1:</param-name>
+      <param-value>false</param-value>
+      <param-hdlname>SC_1</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Slot 2:</param-name>
+      <param-value>false</param-value>
+      <param-hdlname>SC_2</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Slot 3:</param-name>
+      <param-value>false</param-value>
+      <param-hdlname>SC_3</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Slot 4:</param-name>
+      <param-value>false</param-value>
+      <param-hdlname>SC_4</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Slot 5:</param-name>
+      <param-value>false</param-value>
+      <param-hdlname>SC_5</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Slot 6:</param-name>
+      <param-value>false</param-value>
+      <param-hdlname>SC_6</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Slot 7:</param-name>
+      <param-value>false</param-value>
+      <param-hdlname>SC_7</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Slot 8:</param-name>
+      <param-value>false</param-value>
+      <param-hdlname>SC_8</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Slot 9:</param-name>
+      <param-value>false</param-value>
+      <param-hdlname>SC_9</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Slot 10:</param-name>
+      <param-value>false</param-value>
+      <param-hdlname>SC_10</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Slot 11:</param-name>
+      <param-value>false</param-value>
+      <param-hdlname>SC_11</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Slot 12:</param-name>
+      <param-value>false</param-value>
+      <param-hdlname>SC_12</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Slot 13:</param-name>
+      <param-value>false</param-value>
+      <param-hdlname>SC_13</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Slot 14:</param-name>
+      <param-value>false</param-value>
+      <param-hdlname>SC_14</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Slot 15:</param-name>
+      <param-value>false</param-value>
+      <param-hdlname>SC_15</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Position in slave address of upper 4 bits of master address:</param-name>
+      <param-value>[11:8] (Ignored if master address width >= 16 bits)</param-value>
+      <param-hdlname>UPR_NIBBLE_POSN</param-hdlname>
+      <param-hdlvalue>2</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-name>CoreAPB3_0</core-name>
+  </core>
+  <core type="SpiritModule">
+    <core-exttype>IP</core-exttype>
+    <core-type>SpiritModule</core-type>
+    <core-vendor>Actel</core-vendor>
+    <core-lib>DirectCore</core-lib>
+    <core-intname>CORESPI</core-intname>
+    <core-ver>5.2.104</core-ver>
+    <core-desc>CoreSPI is a controller core designed for synchronous serial communication using the Motorola, TI, or NSC Serial Peripheral Interface (SPI).  The core is parameterized to allow user specification of clock phase, clock polarity, slave select behavior, FIFO depth, frame width, and mode.  Operation is fully synchronous and operates on the system clock as well as the external SPI clock for slave mode.
+</core-desc>
+    <core-param>
+      <param-name>APB Data Width:</param-name>
+      <param-value>8</param-value>
+      <param-hdlname>APB_DWIDTH</param-hdlname>
+      <param-hdlvalue>8</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Clock Rate (0-255):</param-name>
+      <param-value>4</param-value>
+      <param-hdlname>CFG_CLK</param-hdlname>
+      <param-hdlvalue>4</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>FIFO Depth (1-32):</param-name>
+      <param-value>20</param-value>
+      <param-hdlname>CFG_FIFO_DEPTH</param-hdlname>
+      <param-hdlvalue>20</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Frame Size (4-32):</param-name>
+      <param-value>8</param-value>
+      <param-hdlname>CFG_FRAME_SIZE</param-hdlname>
+      <param-hdlvalue>8</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Mode:</param-name>
+      <param-value>Motorola Mode</param-value>
+      <param-hdlname>CFG_MODE</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Mode:</param-name>
+      <param-value>Mode 1</param-value>
+      <param-hdlname>CFG_MOT_MODE</param-hdlname>
+      <param-hdlvalue>1</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Keep SSEL active</param-name>
+      <param-value>true</param-value>
+      <param-hdlname>CFG_MOT_SSEL</param-hdlname>
+      <param-hdlvalue>1</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>NSC Specific Configuration</param-name>
+      <param-value>Standard</param-value>
+      <param-hdlname>CFG_NSC_OPERATION</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Jumbo frames</param-name>
+      <param-value>false</param-value>
+      <param-hdlname>CFG_TI_JMB_FRAMES</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Transfer Mode:</param-name>
+      <param-value>Normal</param-value>
+      <param-hdlname>CFG_TI_NSC_CUSTOM</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Free running clock</param-name>
+      <param-value>false</param-value>
+      <param-hdlname>CFG_TI_NSC_FRC</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-name>CORESPI_0</core-name>
+  </core>
+  <core type="SpiritModule">
+    <core-exttype>IP</core-exttype>
+    <core-type>SpiritModule</core-type>
+    <core-vendor>Actel</core-vendor>
+    <core-lib>DirectCore</core-lib>
+    <core-intname>CoreUARTapb</core-intname>
+    <core-ver>5.7.100</core-ver>
+    <core-desc>CoreUARTapb is a serial communication controller with a flexible serial data interface that is intended primarily for embedded systems. The controller operates as an asynchronous (UART) with a control register interface and APB wrapper.</core-desc>
+    <core-param>
+      <param-name>Fractional Part of Baud Value:</param-name>
+      <param-value>+0.375</param-value>
+      <param-hdlname>BAUD_VAL_FRCTN</param-hdlname>
+      <param-hdlvalue>3</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Enable Extra Precision:</param-name>
+      <param-value>true</param-value>
+      <param-hdlname>BAUD_VAL_FRCTN_EN</param-hdlname>
+      <param-hdlvalue>1</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Baud Value:</param-name>
+      <param-value>2</param-value>
+      <param-hdlname>BAUD_VALUE</param-hdlname>
+      <param-hdlvalue>2</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>FPGA Family:</param-name>
+      <param-value>ProASIC3</param-value>
+      <param-hdlname>FAMILY</param-hdlname>
+      <param-hdlvalue>15</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Configuration:</param-name>
+      <param-value>Fixed</param-value>
+      <param-hdlname>FIXEDMODE</param-hdlname>
+      <param-hdlvalue>1</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Character Size:</param-name>
+      <param-value>8 bits</param-value>
+      <param-hdlname>PRG_BIT8</param-hdlname>
+      <param-hdlvalue>1</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Parity:</param-name>
+      <param-value>Parity Disabled</param-value>
+      <param-hdlname>PRG_PARITY</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>RX FIFO:</param-name>
+      <param-value>Disable RX FIFO</param-value>
+      <param-hdlname>RX_FIFO</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>RX Legacy Mode:</param-name>
+      <param-value>Disabled</param-value>
+      <param-hdlname>RX_LEGACY_MODE</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>TX FIFO:</param-name>
+      <param-value>Disable TX FIFO</param-value>
+      <param-hdlname>TX_FIFO</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-name>CoreUARTapb_0</core-name>
+  </core>
+  <core>
+    <core-name>falling_edge_detector_0</core-name>
+  </core>
+  <core>
+    <core-name>fifo_apb_bridge_0</core-name>
+  </core>
+  <core type="AdlibModule">
+    <core-type>AdlibModule</core-type>
+    <core-exttype>INBUF_LVDS</core-exttype>
+    <core-name>INBUF_LVDS_0</core-name>
+  </core>
+  <core type="AdlibModule">
+    <core-type>AdlibModule</core-type>
+    <core-exttype>INBUF_LVDS</core-exttype>
+    <core-name>INBUF_LVDS_1</core-name>
+  </core>
+  <core type="AdlibModule">
+    <core-type>AdlibModule</core-type>
+    <core-exttype>INBUF_LVDS</core-exttype>
+    <core-name>INBUF_LVDS_2</core-name>
+  </core>
+  <core type="ComponentModule">
+    <core-type>ComponentModule</core-type>
+    <core-exttype>SmartGen</core-exttype>
+    <core-location>C:/Users/kamil/OneDrive/Pulpit/cortex_m1_test/smartgen/INFRAME_FIFO1</core-location>
+    <core-name>INFRAME_FIFO1_0</core-name>
+  </core>
+  <core type="ComponentModule">
+    <core-type>ComponentModule</core-type>
+    <core-exttype>SmartGen</core-exttype>
+    <core-location>C:/Users/kamil/OneDrive/Pulpit/cortex_m1_test/smartgen/INREG_CH1</core-location>
+    <core-name>INREG_CH1_0</core-name>
+  </core>
+  <core type="AdlibModule">
+    <core-type>AdlibModule</core-type>
+    <core-exttype>OUTBUF_LVDS</core-exttype>
+    <core-name>OUTBUF_LVDS_0</core-name>
+  </core>
+  <core type="ComponentModule">
+    <core-type>ComponentModule</core-type>
+    <core-exttype>SmartGen</core-exttype>
+    <core-location>C:/Users/kamil/OneDrive/Pulpit/cortex_m1_test/smartgen/PLL_clock</core-location>
+    <core-name>PLL_clock_0</core-name>
+  </core>
+  <firmware_core type="FirmWareModule">
+    <core-exttype>IP</core-exttype>
+    <core-type>FirmWareModule</core-type>
+    <core-vendor>Actel</core-vendor>
+    <core-lib>Firmware</core-lib>
+    <core-intname>CoreSPI_Driver</core-intname>
+    <core-ver>3.3.100</core-ver>
+    <core-desc>Bare metal software driver for CoreSPI.</core-desc>
+    <core-name>CoreSPI_Driver_0</core-name>
+  </firmware_core>
+  <firmware_core type="FirmWareModule">
+    <core-exttype>IP</core-exttype>
+    <core-type>FirmWareModule</core-type>
+    <core-vendor>Actel</core-vendor>
+    <core-lib>Firmware</core-lib>
+    <core-intname>CoreUARTapb_Driver</core-intname>
+    <core-ver>3.3.101</core-ver>
+    <core-desc>Bare metal software driver for CoreUARTapb IP.
+</core-desc>
+    <core-name>CoreUARTapb_Driver_0</core-name>
+  </firmware_core>
+  <memorysystem>
+    <title>Memory Map for top_m1</title>
+    <description>The project contains the following subsystems:</description>
+    <subsystems>
+      <subsystem>
+        <name>COREABC_0</name>
+        <master>COREABC_0</master>
+        <addressNames>
+          <count>1</count>
+          <name>
+          </name>
+        </addressNames>
+        <slave>
+          <name>CORESPI_0</name>
+          <fullPinName>CORESPI_0:APB_bif</fullPinName>
+          <remapAddress>0x00000000</remapAddress>
+          <fullAddressSpace>0x00000000 - 0x000000FF</fullAddressSpace>
+          <range>0x00000100</range>
+        </slave>
+        <slave>
+          <name>CoreUARTapb_0</name>
+          <fullPinName>CoreUARTapb_0:APB_bif</fullPinName>
+          <remapAddress>0x00000100</remapAddress>
+          <fullAddressSpace>0x00000100 - 0x000001FF</fullAddressSpace>
+          <range>0x00000100</range>
+        </slave>
+        <slave>
+          <name>fifo_apb_bridge_0</name>
+          <fullPinName>fifo_apb_bridge_0:BIF_1</fullPinName>
+          <remapAddress>0x00000200</remapAddress>
+          <fullAddressSpace>0x00000200 - 0x000002FF</fullAddressSpace>
+          <range>0x00000100</range>
+        </slave>
+      </subsystem>
+    </subsystems>
+  </memorysystem>
+</datasheet>

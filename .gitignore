@@ -1,0 +1,6 @@
+synthesis/
+designer/
+tooldata/
+simulation/
+*.log
+*.wlf

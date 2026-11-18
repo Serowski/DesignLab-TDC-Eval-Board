@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<device>
+  <name>top_m1</name>
+  <version>1.0</version>
+  <description>CMSIS description for top_m1.  Created by Microsemi SmartDesign on Wed Nov 18 18:31:53 2026</description>
+  <addressUnitBits>8</addressUnitBits>
+  <width>32</width>
+  <peripherals>
+    <peripheral>
+      <name>CORESPI_0</name>
+      <baseAddress>0x00000000</baseAddress>
+    </peripheral>
+    <peripheral>
+      <name>CoreUARTapb_0</name>
+      <baseAddress>0x00000100</baseAddress>
+    </peripheral>
+    <peripheral>
+      <name>fifo_apb_bridge_0</name>
+      <baseAddress>0x00000200</baseAddress>
+    </peripheral>
+  </peripherals>
+</device>
