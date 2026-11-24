@@ -1,5 +1,5 @@
 //////////////////////////////////////////////////////////////////////
-// Created by SmartDesign Wed Nov 18 18:31:48 2026
+// Created by SmartDesign Mon Nov 23 21:38:30 2026
 // Version: v11.9 SP6 11.9.6.7
 //////////////////////////////////////////////////////////////////////
 
@@ -147,13 +147,13 @@ wire   [19:0] COREABC_0_APB3Initiator_PADDR;
 wire   [31:20]COREABC_0_APB3Initiator_PADDR_0_31to20;
 wire   [19:0] COREABC_0_APB3Initiator_PADDR_0_19to0;
 wire   [31:0] COREABC_0_APB3Initiator_PADDR_0;
+wire   [31:0] COREABC_0_APB3Initiator_PRDATA;
 wire   [7:0]  COREABC_0_APB3Initiator_PRDATA_0_7to0;
 wire   [7:0]  COREABC_0_APB3Initiator_PRDATA_0;
-wire   [31:0] COREABC_0_APB3Initiator_PRDATA;
-wire   [7:0]  COREABC_0_APB3Initiator_PWDATA;
 wire   [31:8] COREABC_0_APB3Initiator_PWDATA_0_31to8;
 wire   [7:0]  COREABC_0_APB3Initiator_PWDATA_0_7to0;
 wire   [31:0] COREABC_0_APB3Initiator_PWDATA_0;
+wire   [7:0]  COREABC_0_APB3Initiator_PWDATA;
 wire   [6:0]  CoreAPB3_0_APBmslave0_PADDR_0_6to0;
 wire   [6:0]  CoreAPB3_0_APBmslave0_PADDR_0;
 wire   [4:0]  CoreAPB3_0_APBmslave0_PADDR_1_4to0;
@@ -165,13 +165,13 @@ wire   [31:8] CoreAPB3_0_APBmslave0_PRDATA_0_31to8;
 wire   [7:0]  CoreAPB3_0_APBmslave0_PRDATA_0_7to0;
 wire   [31:0] CoreAPB3_0_APBmslave0_PRDATA_0;
 wire   [7:0]  CoreAPB3_0_APBmslave0_PRDATA;
+wire   [31:0] CoreAPB3_0_APBmslave0_PWDATA;
 wire   [7:0]  CoreAPB3_0_APBmslave0_PWDATA_0_7to0;
 wire   [7:0]  CoreAPB3_0_APBmslave0_PWDATA_0;
 wire   [7:0]  CoreAPB3_0_APBmslave0_PWDATA_1_7to0;
 wire   [7:0]  CoreAPB3_0_APBmslave0_PWDATA_1;
 wire   [7:0]  CoreAPB3_0_APBmslave0_PWDATA_2_7to0;
 wire   [7:0]  CoreAPB3_0_APBmslave0_PWDATA_2;
-wire   [31:0] CoreAPB3_0_APBmslave0_PWDATA;
 wire   [31:8] CoreAPB3_0_APBmslave1_PRDATA_0_31to8;
 wire   [7:0]  CoreAPB3_0_APBmslave1_PRDATA_0_7to0;
 wire   [31:0] CoreAPB3_0_APBmslave1_PRDATA_0;

@@ -1,5 +1,5 @@
 //--------------------------------------------------------------------
-// Created by Microsemi SmartDesign Wed Nov 18 18:31:48 2026
+// Created by Microsemi SmartDesign Mon Nov 23 21:38:30 2026
 // Parameters for COREABC
 //--------------------------------------------------------------------
 
@@ -9,10 +9,14 @@ parameter ABCCODE = "$INIT_SYSTEM
     JUMP $LOOP
 $STREAM_FIFO
     JUMP IF INPUT0 $LOOP
-    WAIT UNTIL INPUT2
+    JUMP IFNOT INPUT2 $STREAM_FIFO
     // Take a byte off FIFO
     APBWRT DAT 2 0x00 0x01
-    // Byte 0    
+    // Byte 0 - {6'b0000, CH_ID}
+    WAIT UNTIL INPUT1
+    APBREAD 2 0x14
+    APBWRT ACC 1 0x00
+    // Byte 1    
     WAIT UNTIL INPUT1
     APBREAD 2 0x04
     APBWRT ACC 1 0x00
@@ -28,6 +32,7 @@ $STREAM_FIFO
     WAIT UNTIL INPUT1
     APBREAD 2 0x10
     APBWRT ACC 1 0x00
+
     JUMP $STREAM_FIFO
 $LOOP
     WAIT UNTIL INPUT0
@@ -83,7 +88,11 @@ $OPC_INIT
     APBWRT DAT 0 0x24 0x01
     // Send spiopc_init opcode
     APBWRT DAT 0 0x28 0x18
-
+$WAIT_SPI_WRITE
+    // Wait for SPI to finish transmission
+    APBREAD 0 0x20
+    BITTST 7
+    JUMP IFNOTZERO $WAIT_SPI_WRITE
     JUMP $STREAM_FIFO
 
 

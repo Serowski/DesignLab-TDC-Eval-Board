@@ -30,7 +30,7 @@ KEY VendorTechnology_VCCI_1.8_VOLTR "COM"
 KEY VendorTechnology_VCCI_2.5_VOLTR "COM"
 KEY VendorTechnology_VCCI_3.3_VOLTR "COM"
 KEY VendorTechnology_VOLTR "COM"
-KEY ProjectLocation "C:\Users\kamil\OneDrive\Pulpit\GPX2_EVA_ProASIC3"
+KEY ProjectLocation "C:\Users\kamil\OneDrive\Pulpit\claude_system\GPX2_EVA_ProASIC3"
 KEY ProjectDescription ""
 KEY Pa4PeripheralNewSeq "GOOD"
 KEY SimulationType "VERILOG"
@@ -58,19 +58,19 @@ ENDLIST
 LIST FileManager
 VALUE "<project>\component\Actel\DirectCore\COREABC\4.1.111\COREABC.cxf,actgen_cxf"
 STATE="utd"
-TIME="1795023108"
+TIME="1795466310"
 SIZE="480"
 PARENT="<project>\component\work\top_m1\top_m1.cxf"
 ENDFILE
 VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\CoreAPB3.cxf,actgen_cxf"
 STATE="utd"
-TIME="1795023108"
+TIME="1795466310"
 SIZE="2736"
 PARENT="<project>\component\work\top_m1\top_m1.cxf"
 ENDFILE
 VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\coreparameters.v,tb_hdl"
 STATE="utd"
-TIME="1795023108"
+TIME="1795466310"
 SIZE="1283"
 PARENT="<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\CoreAPB3.cxf"
 IS_READONLY="TRUE"
@@ -159,7 +159,7 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\Actel\DirectCore\CORESPI\5.2.104\CORESPI.cxf,actgen_cxf"
 STATE="utd"
-TIME="1795023108"
+TIME="1795466310"
 SIZE="2961"
 PARENT="<project>\component\work\top_m1\top_m1.cxf"
 ENDFILE
@@ -278,7 +278,7 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\Actel\DirectCore\CoreUARTapb\5.7.100\CoreUARTapb.cxf,actgen_cxf"
 STATE="utd"
-TIME="1795023108"
+TIME="1795466310"
 SIZE="779"
 PARENT="<project>\component\work\top_m1\top_m1.cxf"
 ENDFILE
@@ -294,98 +294,98 @@ SIZE="413"
 ENDFILE
 VALUE "<project>\component\work\top_m1\COREABC_0\CoreABC.log,log"
 STATE="utd"
-TIME="1795023107"
-SIZE="1489"
+TIME="1795466310"
+SIZE="1517"
 PARENT="<project>\component\work\top_m1\COREABC_0\top_m1_COREABC_0_COREABC.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\top_m1\COREABC_0\coreparameters_tgi.v,hdl"
 STATE="utd"
-TIME="1795023107"
+TIME="1795466310"
 SIZE="1861"
 PARENT="<project>\component\work\top_m1\COREABC_0\top_m1_COREABC_0_COREABC.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\top_m1\COREABC_0\rtl\vlog\core\acmtable.v,hdl"
 STATE="utd"
-TIME="1795023108"
+TIME="1795466310"
 SIZE="3361"
 PARENT="<project>\component\work\top_m1\COREABC_0\top_m1_COREABC_0_COREABC.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\top_m1\COREABC_0\rtl\vlog\core\coreabc.v,hdl"
 STATE="utd"
-TIME="1795023108"
+TIME="1795466310"
 SIZE="92488"
 PARENT="<project>\component\work\top_m1\COREABC_0\top_m1_COREABC_0_COREABC.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\top_m1\COREABC_0\rtl\vlog\core\debugblk.v,hdl"
 STATE="utd"
-TIME="1795023108"
+TIME="1795466310"
 SIZE="28050"
 PARENT="<project>\component\work\top_m1\COREABC_0\top_m1_COREABC_0_COREABC.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\top_m1\COREABC_0\rtl\vlog\core\instructions.v,hdl"
 STATE="utd"
-TIME="1795023108"
-SIZE="127080"
+TIME="1795466310"
+SIZE="127583"
 PARENT="<project>\component\work\top_m1\COREABC_0\top_m1_COREABC_0_COREABC.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\top_m1\COREABC_0\rtl\vlog\core\instructnvm_bb.v,hdl"
 STATE="utd"
-TIME="1795023108"
+TIME="1795466310"
 SIZE="2134"
 PARENT="<project>\component\work\top_m1\COREABC_0\top_m1_COREABC_0_COREABC.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\top_m1\COREABC_0\rtl\vlog\core\instructram.v,hdl"
 STATE="utd"
-TIME="1795023108"
+TIME="1795466310"
 SIZE="15442"
 PARENT="<project>\component\work\top_m1\COREABC_0\top_m1_COREABC_0_COREABC.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\top_m1\COREABC_0\rtl\vlog\core\iram512x9_pa3.v,hdl"
 STATE="utd"
-TIME="1795023108"
+TIME="1795466310"
 SIZE="3725"
 PARENT="<project>\component\work\top_m1\COREABC_0\top_m1_COREABC_0_COREABC.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\top_m1\COREABC_0\rtl\vlog\core\ram128x8_rtl.v,hdl"
 STATE="utd"
-TIME="1795023108"
+TIME="1795466310"
 SIZE="1360"
 PARENT="<project>\component\work\top_m1\COREABC_0\top_m1_COREABC_0_COREABC.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\top_m1\COREABC_0\rtl\vlog\core\ram256x16_pa3.v,hdl"
 STATE="utd"
-TIME="1795023108"
+TIME="1795466310"
 SIZE="2939"
 PARENT="<project>\component\work\top_m1\COREABC_0\top_m1_COREABC_0_COREABC.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\top_m1\COREABC_0\rtl\vlog\core\ram256x8_rtl.v,hdl"
 STATE="utd"
-TIME="1795023108"
+TIME="1795466310"
 SIZE="1231"
 PARENT="<project>\component\work\top_m1\COREABC_0\top_m1_COREABC_0_COREABC.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\top_m1\COREABC_0\rtl\vlog\core\ramblocks.v,hdl"
 STATE="utd"
-TIME="1795023108"
+TIME="1795466310"
 SIZE="21076"
 PARENT="<project>\component\work\top_m1\COREABC_0\top_m1_COREABC_0_COREABC.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\top_m1\COREABC_0\rtl\vlog\core\support.v,hdl"
 STATE="utd"
-TIME="1795023108"
+TIME="1795466310"
 SIZE="56260"
 PARENT="<project>\component\work\top_m1\COREABC_0\top_m1_COREABC_0_COREABC.cxf"
 IS_READONLY="TRUE"
@@ -393,14 +393,14 @@ IS_INCLUDED="TRUE"
 ENDFILE
 VALUE "<project>\component\work\top_m1\COREABC_0\rtl\vlog\test\apbmodel.v,tb_hdl"
 STATE="utd"
-TIME="1795023108"
+TIME="1795466310"
 SIZE="4733"
 PARENT="<project>\component\work\top_m1\COREABC_0\top_m1_COREABC_0_COREABC.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\top_m1\COREABC_0\rtl\vlog\test\testbench.v,tb_hdl"
 STATE="utd"
-TIME="1795023108"
+TIME="1795466310"
 SIZE="24965"
 PARENT="<project>\component\work\top_m1\COREABC_0\top_m1_COREABC_0_COREABC.cxf"
 MODULE_UNDER_TEST="TESTBENCH"
@@ -409,7 +409,7 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\top_m1\COREABC_0\rtl\vlog\test\testsupport.v,tb_hdl"
 STATE="utd"
-TIME="1795023108"
+TIME="1795466310"
 SIZE="30649"
 PARENT="<project>\component\work\top_m1\COREABC_0\top_m1_COREABC_0_COREABC.cxf"
 IS_READONLY="TRUE"
@@ -417,13 +417,13 @@ IS_INCLUDED="TRUE"
 ENDFILE
 VALUE "<project>\component\work\top_m1\COREABC_0\top_m1_COREABC_0_COREABC.cxf,actgen_cxf"
 STATE="utd"
-TIME="1795023108"
+TIME="1795466310"
 SIZE="3380"
 PARENT="<project>\component\work\top_m1\top_m1.cxf"
 ENDFILE
 VALUE "<project>\component\work\top_m1\CoreUARTapb_0\coreparameters.v,tb_hdl"
 STATE="utd"
-TIME="1795023108"
+TIME="1795466310"
 SIZE="605"
 PARENT="<project>\component\work\top_m1\CoreUARTapb_0\top_m1_CoreUARTapb_0_CoreUARTapb.cxf"
 IS_READONLY="TRUE"
@@ -431,133 +431,133 @@ IS_INCLUDED="TRUE"
 ENDFILE
 VALUE "<project>\component\work\top_m1\CoreUARTapb_0\mti\scripts\bfmtovec_compile.do,do"
 STATE="utd"
-TIME="1795023108"
+TIME="1795466310"
 SIZE="1011"
 PARENT="<project>\component\work\top_m1\CoreUARTapb_0\top_m1_CoreUARTapb_0_CoreUARTapb.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\top_m1\CoreUARTapb_0\mti\scripts\wave_vlog_amba.do,do"
 STATE="utd"
-TIME="1795023108"
+TIME="1795466310"
 SIZE="2034"
 PARENT="<project>\component\work\top_m1\CoreUARTapb_0\top_m1_CoreUARTapb_0_CoreUARTapb.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\top_m1\CoreUARTapb_0\rtl\vlog\amba_bfm\bfm_ahbl.v,tb_hdl"
 STATE="utd"
-TIME="1795023108"
+TIME="1795466310"
 SIZE="8100"
 PARENT="<project>\component\work\top_m1\CoreUARTapb_0\top_m1_CoreUARTapb_0_CoreUARTapb.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\top_m1\CoreUARTapb_0\rtl\vlog\amba_bfm\bfm_ahblapb.v,tb_hdl"
 STATE="utd"
-TIME="1795023108"
+TIME="1795466310"
 SIZE="11243"
 PARENT="<project>\component\work\top_m1\CoreUARTapb_0\top_m1_CoreUARTapb_0_CoreUARTapb.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\top_m1\CoreUARTapb_0\rtl\vlog\amba_bfm\bfm_ahbslave.v,tb_hdl"
 STATE="utd"
-TIME="1795023108"
+TIME="1795466310"
 SIZE="2503"
 PARENT="<project>\component\work\top_m1\CoreUARTapb_0\top_m1_CoreUARTapb_0_CoreUARTapb.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\top_m1\CoreUARTapb_0\rtl\vlog\amba_bfm\bfm_ahbslaveext.v,tb_hdl"
 STATE="utd"
-TIME="1795023108"
+TIME="1795466310"
 SIZE="48834"
 PARENT="<project>\component\work\top_m1\CoreUARTapb_0\top_m1_CoreUARTapb_0_CoreUARTapb.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\top_m1\CoreUARTapb_0\rtl\vlog\amba_bfm\bfm_ahbtoapb.v,tb_hdl"
 STATE="utd"
-TIME="1795023108"
+TIME="1795466310"
 SIZE="4656"
 PARENT="<project>\component\work\top_m1\CoreUARTapb_0\top_m1_CoreUARTapb_0_CoreUARTapb.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\top_m1\CoreUARTapb_0\rtl\vlog\amba_bfm\bfm_apb.v,tb_hdl"
 STATE="utd"
-TIME="1795023108"
+TIME="1795466310"
 SIZE="9135"
 PARENT="<project>\component\work\top_m1\CoreUARTapb_0\top_m1_CoreUARTapb_0_CoreUARTapb.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\top_m1\CoreUARTapb_0\rtl\vlog\amba_bfm\bfm_apbslave.v,tb_hdl"
 STATE="utd"
-TIME="1795023108"
+TIME="1795466310"
 SIZE="25190"
 PARENT="<project>\component\work\top_m1\CoreUARTapb_0\top_m1_CoreUARTapb_0_CoreUARTapb.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\top_m1\CoreUARTapb_0\rtl\vlog\amba_bfm\bfm_apbslaveext.v,tb_hdl"
 STATE="utd"
-TIME="1795023108"
+TIME="1795466310"
 SIZE="36315"
 PARENT="<project>\component\work\top_m1\CoreUARTapb_0\top_m1_CoreUARTapb_0_CoreUARTapb.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\top_m1\CoreUARTapb_0\rtl\vlog\amba_bfm\bfm_apbtoapb.v,tb_hdl"
 STATE="utd"
-TIME="1795023108"
+TIME="1795466310"
 SIZE="4719"
 PARENT="<project>\component\work\top_m1\CoreUARTapb_0\top_m1_CoreUARTapb_0_CoreUARTapb.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\top_m1\CoreUARTapb_0\rtl\vlog\amba_bfm\bfm_main.v,tb_hdl"
 STATE="utd"
-TIME="1795023108"
+TIME="1795466310"
 SIZE="122516"
 PARENT="<project>\component\work\top_m1\CoreUARTapb_0\top_m1_CoreUARTapb_0_CoreUARTapb.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\top_m1\CoreUARTapb_0\rtl\vlog\core\Clock_gen.v,hdl"
 STATE="utd"
-TIME="1795023108"
+TIME="1795466310"
 SIZE="13244"
 PARENT="<project>\component\work\top_m1\CoreUARTapb_0\top_m1_CoreUARTapb_0_CoreUARTapb.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\top_m1\CoreUARTapb_0\rtl\vlog\core\CoreUART.v,hdl"
 STATE="utd"
-TIME="1795023108"
+TIME="1795466310"
 SIZE="14266"
 PARENT="<project>\component\work\top_m1\CoreUARTapb_0\top_m1_CoreUARTapb_0_CoreUARTapb.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\top_m1\CoreUARTapb_0\rtl\vlog\core\CoreUARTapb.v,hdl"
 STATE="utd"
-TIME="1795023108"
+TIME="1795466310"
 SIZE="13949"
 PARENT="<project>\component\work\top_m1\CoreUARTapb_0\top_m1_CoreUARTapb_0_CoreUARTapb.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\top_m1\CoreUARTapb_0\rtl\vlog\core\fifo_256x8.v,hdl"
 STATE="utd"
-TIME="1795023108"
+TIME="1795466310"
 SIZE="7735"
 PARENT="<project>\component\work\top_m1\CoreUARTapb_0\top_m1_CoreUARTapb_0_CoreUARTapb.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\top_m1\CoreUARTapb_0\rtl\vlog\core\Rx_async.v,hdl"
 STATE="utd"
-TIME="1795023108"
+TIME="1795466310"
 SIZE="21153"
 PARENT="<project>\component\work\top_m1\CoreUARTapb_0\top_m1_CoreUARTapb_0_CoreUARTapb.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\top_m1\CoreUARTapb_0\rtl\vlog\core\Tx_async.v,hdl"
 STATE="utd"
-TIME="1795023108"
+TIME="1795466310"
 SIZE="8859"
 PARENT="<project>\component\work\top_m1\CoreUARTapb_0\top_m1_CoreUARTapb_0_CoreUARTapb.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\top_m1\CoreUARTapb_0\rtl\vlog\test\user\testbench.v,tb_hdl"
 STATE="utd"
-TIME="1795023108"
+TIME="1795466310"
 SIZE="8957"
 PARENT="<project>\component\work\top_m1\CoreUARTapb_0\top_m1_CoreUARTapb_0_CoreUARTapb.cxf"
 MODULE_UNDER_TEST="testbench"
@@ -566,24 +566,29 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\top_m1\CoreUARTapb_0\top_m1_CoreUARTapb_0_CoreUARTapb.cxf,actgen_cxf"
 STATE="utd"
-TIME="1795023108"
+TIME="1795466310"
 SIZE="4130"
 PARENT="<project>\component\work\top_m1\top_m1.cxf"
 ENDFILE
 VALUE "<project>\component\work\top_m1\top_m1.cxf,actgen_cxf"
 STATE="utd"
-TIME="1795023114"
+TIME="1795466317"
 SIZE="6820"
 ENDFILE
 VALUE "<project>\component\work\top_m1\top_m1.v,hdl"
 STATE="utd"
-TIME="1795023108"
+TIME="1795466310"
 SIZE="28171"
 PARENT="<project>\component\work\top_m1\top_m1.cxf"
 IS_READONLY="TRUE"
 ENDFILE
+VALUE "<project>\constraint\top_m1.pdc,pdc"
+STATE="utd"
+TIME="1795478695"
+SIZE="1928"
+ENDFILE
 VALUE "<project>\designer\impl2\top_m1.adb,adb"
-STATE="ood"
+STATE="utd"
 TIME="1795027312"
 SIZE="1590784"
 ENDFILE
@@ -592,15 +597,20 @@ STATE="utd"
 TIME="1795027312"
 SIZE="1065"
 ENDFILE
+VALUE "<project>\designer\impl2\top_m1.pdb,pdb"
+STATE="utd"
+TIME="1795478916"
+SIZE="22"
+ENDFILE
 VALUE "<project>\designer\impl2\top_m1_ba.sdf,ba_sdf"
-STATE="ood"
+STATE="utd"
 TIME="1795027306"
 SIZE="1598480"
 ENDFILE
 VALUE "<project>\designer\impl2\top_m1_ba.v,ba_hdl"
-STATE="ood"
-TIME="1795027305"
-SIZE="739348"
+STATE="utd"
+TIME="1795475950"
+SIZE="747309"
 ENDFILE
 VALUE "<project>\designer\impl2\top_m1_compile_log.rpt,log"
 STATE="utd"
@@ -658,14 +668,24 @@ SIZE="1424"
 ENDFILE
 VALUE "<project>\simulation\subsystem.bfm,sim"
 STATE="utd"
-TIME="1795023108"
+TIME="1795466310"
 SIZE="861"
 PARENT="<project>\component\work\top_m1\top_m1.cxf"
 ENDFILE
 VALUE "<project>\simulation\tb_system_1_postlayout_simulation.log,log"
 STATE="utd"
-TIME="1795030866"
-SIZE="6450"
+TIME="1795477357"
+SIZE="68"
+ENDFILE
+VALUE "<project>\simulation\tb_system_1_postsynth_simulation.log,log"
+STATE="utd"
+TIME="1795476010"
+SIZE="68"
+ENDFILE
+VALUE "<project>\simulation\tb_system_1_presynth_simulation.log,log"
+STATE="utd"
+TIME="1795467059"
+SIZE="68"
 ENDFILE
 VALUE "<project>\simulation\user_tb.bfm,sim"
 STATE="utd"
@@ -675,27 +695,27 @@ PARENT="<project>\component\Actel\DirectCore\CORESPI\5.2.104\CORESPI.cxf"
 ENDFILE
 VALUE "<project>\smartgen\INFRAME_FIFO1\INFRAME_FIFO1.cxf,actgen_cxf"
 STATE="utd"
-TIME="1795022216"
+TIME="1795466282"
 SIZE="2314"
 ENDFILE
 VALUE "<project>\smartgen\INFRAME_FIFO1\INFRAME_FIFO1.gen,gen"
 STATE="utd"
-TIME="1795022213"
-SIZE="976"
+TIME="1795466278"
+SIZE="993"
 PARENT="<project>\smartgen\INFRAME_FIFO1\INFRAME_FIFO1.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\smartgen\INFRAME_FIFO1\INFRAME_FIFO1.log,log"
 STATE="utd"
-TIME="1795022214"
-SIZE="3589"
+TIME="1795466279"
+SIZE="3605"
 PARENT="<project>\smartgen\INFRAME_FIFO1\INFRAME_FIFO1.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\smartgen\INFRAME_FIFO1\INFRAME_FIFO1.v,hdl"
 STATE="utd"
-TIME="1795022214"
-SIZE="39832"
+TIME="1795466279"
+SIZE="39742"
 PARENT="<project>\smartgen\INFRAME_FIFO1\INFRAME_FIFO1.cxf"
 IS_READONLY="TRUE"
 ENDFILE
@@ -727,37 +747,42 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\smartgen\PLL_clock\PLL_clock.cxf,actgen_cxf"
 STATE="utd"
-TIME="1795020310"
+TIME="1795459597"
 SIZE="1635"
 ENDFILE
 VALUE "<project>\smartgen\PLL_clock\PLL_clock.gen,gen"
 STATE="utd"
-TIME="1795020307"
-SIZE="639"
+TIME="1795459596"
+SIZE="655"
 PARENT="<project>\smartgen\PLL_clock\PLL_clock.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\smartgen\PLL_clock\PLL_clock.log,log"
 STATE="utd"
-TIME="1795020307"
-SIZE="2880"
+TIME="1795459597"
+SIZE="2895"
 PARENT="<project>\smartgen\PLL_clock\PLL_clock.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\smartgen\PLL_clock\PLL_clock.v,hdl"
 STATE="utd"
-TIME="1795020308"
-SIZE="2867"
+TIME="1795459597"
+SIZE="2882"
 PARENT="<project>\smartgen\PLL_clock\PLL_clock.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\stimulus\tb_system_1.v,tb_hdl"
 STATE="utd"
-TIME="1795032981"
-SIZE="5921"
+TIME="1795476228"
+SIZE="7125"
+ENDFILE
+VALUE "<project>\stimulus\tb_system_postLayout.v,tb_hdl"
+STATE="utd"
+TIME="1795476339"
+SIZE="6898"
 ENDFILE
 VALUE "<project>\synthesis\top_m1.edn,syn_edn"
-STATE="ood"
+STATE="utd"
 TIME="1795023132"
 SIZE="1504821"
 ENDFILE
@@ -766,15 +791,20 @@ STATE="utd"
 TIME="1795023132"
 SIZE="227"
 ENDFILE
+VALUE "<project>\synthesis\top_m1.v,syn_hdl"
+STATE="utd"
+TIME="1795476006"
+SIZE="471760"
+ENDFILE
 VALUE "<project>\synthesis\top_m1_sdc.sdc,syn_sdc"
-STATE="ood"
+STATE="utd"
 TIME="1795023132"
 SIZE="310"
 ENDFILE
 VALUE "<project>\synthesis\top_m1_syn.prj,prj"
 STATE="utd"
-TIME="1795031314"
-SIZE="6249"
+TIME="1795436975"
+SIZE="6753"
 ENDFILE
 ENDLIST
 LIST UsedFile
@@ -786,11 +816,13 @@ LIST Other_Association
 VALUE "<project>\simulation\subsystem.bfm,sim"
 ENDLIST
 LIST AssociatedStimulus
-VALUE "<project>\stimulus\tb_system_1.v,tb_hdl"
+VALUE "<project>\stimulus\tb_system_postLayout.v,tb_hdl"
 ENDLIST
 LIST ProjectState5.1
 LIST Impl1
+LiberoState=Post_Synthesis
 ideSTIMULUS=StateSuccess
+ideSYNTHESIS(<project>\synthesis\top_m1.edn,syn_edn)=StateSuccess
 LIST FlowOptions
 UsePhySynth=FALSE
 UseSynth=TRUE
@@ -800,7 +832,10 @@ Used_File_List
 ENDUsed_File_List
 ENDLIST
 LIST Impl2
+LiberoState=Post_Layout
 ideSTIMULUS=StateSuccess
+ideSYNTHESIS(<project>\synthesis\top_m1.edn,syn_edn)=StateSuccess
+ideDESIGNER(<project>\designer\impl2\top_m1.adb,adb)=StateSuccess
 LIST FlowOptions
 UsePhySynth=FALSE
 UseSynth=TRUE
@@ -998,7 +1033,7 @@ ENDLIST
 ENDLIST
 LIST AssociatedStimulus
 LIST top_m1
-VALUE "<project>\stimulus\tb_system_1.v,tb_hdl"
+VALUE "<project>\stimulus\tb_system_postLayout.v,tb_hdl"
 ENDLIST
 LIST top_m1_COREABC_0_COREABC
 VALUE "<project>\component\work\top_m1\COREABC_0\rtl\vlog\test\testsupport.v,tb_hdl"
@@ -1090,7 +1125,7 @@ LIST SimulationOptions
 UseAutomaticDoFile=true
 IncludeWaveDo=false
 Type=max
-RunTime=500us
+RunTime=1200us
 Resolution=1ps
 VsimOpt=
 EntityName=tb_system_1
@@ -1152,8 +1187,8 @@ NAME="Synplify Pro ME"
 FUNCTION="Synthesis"
 TOOL="Synplify Pro ME"
 LOCATION="C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin\synplify_pro.exe"
-PARAM=""
-BATCH=0
+PARAM="-licensetype synplifypro_actel -batch -log synplify.log"
+BATCH=1
 LICENSE=""
 IS32BIT="1"
 EndProfile
@@ -1161,7 +1196,7 @@ NAME="ModelSim ME"
 FUNCTION="Simulation"
 TOOL="ModelSim"
 LOCATION="C:\Microsemi\Libero_SoC_v11.9\Modelsim\win32acoem\modelsim.exe"
-PARAM=""
+PARAM=" -l tb_system_1_postlayout_simulation.log "
 BATCH=0
 LICENSE=""
 IS32BIT="1"
@@ -1188,7 +1223,9 @@ ENDLIST
 LIST ProjectState5.1
 LIST "top_m1::work"
 LIST Impl1
+LiberoState=Post_Synthesis
 ideSTIMULUS=StateSuccess
+ideSYNTHESIS(<project>\synthesis\top_m1.edn,syn_edn)=StateSuccess
 LIST FlowOptions
 UsePhySynth=FALSE
 UseSynth=TRUE
@@ -1198,7 +1235,10 @@ Used_File_List
 ENDUsed_File_List
 ENDLIST
 LIST Impl2
+LiberoState=Post_Layout
 ideSTIMULUS=StateSuccess
+ideSYNTHESIS(<project>\synthesis\top_m1.edn,syn_edn)=StateSuccess
+ideDESIGNER(<project>\designer\impl2\top_m1.adb,adb)=StateSuccess
 LIST FlowOptions
 UsePhySynth=FALSE
 UseSynth=TRUE
@@ -1308,9 +1348,7 @@ ENDLIST
 LIST UserCustomizedFileList
 ENDLIST
 LIST OpenedFileList
-ORIENTATION;VERTICAL
-HDL;stimulus\tb_system_1.v;0
-ACTIVEVIEW;stimulus\tb_system_1.v
+ORIENTATION;HORIZONTAL
 ENDLIST
 LIST ModuleSubBlockList
 LIST "CH1_ID::work","hdl\CH1_ID.v","FALSE","FALSE"
@@ -1414,6 +1452,9 @@ ENDLIST
 LIST "tb_system_1::work","stimulus\tb_system_1.v","FALSE","TRUE"
 SUBBLOCK "top_m1::work","component\work\top_m1\top_m1.v","TRUE","FALSE"
 ENDLIST
+LIST "tb_system_1::work","stimulus\tb_system_postLayout.v","FALSE","TRUE"
+SUBBLOCK "top_m1::work","component\work\top_m1\top_m1.v","TRUE","FALSE"
+ENDLIST
 LIST "TESTBENCH::work","component\work\top_m1\COREABC_0\rtl\vlog\test\testbench.v","FALSE","TRUE"
 SUBBLOCK "top_m1_COREABC_0_APBModel::work","component\work\top_m1\COREABC_0\rtl\vlog\test\apbmodel.v","FALSE","TRUE"
 SUBBLOCK "top_m1_COREABC_0_COREABC::work","component\work\top_m1\COREABC_0\rtl\vlog\core\coreabc.v","FALSE","FALSE"
@@ -1511,6 +1552,9 @@ SUBBLOCK "CORESPI_BFM_APB::CORESPI_LIB","component\Actel\DirectCore\CORESPI\5.2.
 ENDLIST
 ENDLIST
 LIST ActiveTestBenchList
+LIST "top_m1::work"
+ACTIVETESTBENCH "tb_system_1::work","stimulus\tb_system_postLayout.v","FALSE"
+ENDLIST
 ENDLIST
 LIST IOTabList
 ENDLIST

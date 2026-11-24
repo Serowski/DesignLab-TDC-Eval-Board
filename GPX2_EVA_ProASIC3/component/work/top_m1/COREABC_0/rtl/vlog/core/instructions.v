@@ -61,15 +61,16 @@ module top_m1_COREABC_0_INSTRUCTIONS (ADDRESS, INSTRUCTION);
     // CCDirective Insert constants
 parameter Label_INIT_SYSTEM = 0;
 parameter Label_STREAM_FIFO = 2;
-parameter Label_LOOP = 18;
-parameter Label_OPC_POWER = 29;
-parameter Label_OPC_WR_CONFIG = 32;
-parameter Label_CONFIG_BYTES = 36;
-parameter Label_OPC_INIT = 46;
-parameter Label_OPC_RD_CONFIG = 49;
-parameter Label_FILL_TX_FIFO = 54;
-parameter Label_WAIT_SPI_DONE = 59;
-parameter Label_READ_BYTES = 64;
+parameter Label_LOOP = 21;
+parameter Label_OPC_POWER = 32;
+parameter Label_OPC_WR_CONFIG = 35;
+parameter Label_CONFIG_BYTES = 39;
+parameter Label_OPC_INIT = 49;
+parameter Label_WAIT_SPI_WRITE = 51;
+parameter Label_OPC_RD_CONFIG = 55;
+parameter Label_FILL_TX_FIFO = 60;
+parameter Label_WAIT_SPI_DONE = 65;
+parameter Label_READ_BYTES = 70;
     // These are the procedure calls to create the instruction sequence
     always @(ADDRESS)
     begin : UROM
@@ -91,105 +92,114 @@ parameter Label_READ_BYTES = 64;
        1 : INS <= doins2( iJUMP, Label_LOOP);
       // $STREAM_FIFO
        2 : INS <= doins4( iJUMP, iIF, iINPUT0, Label_LOOP);
-       3 : INS <= doins3( iWAIT, iIFNOT, iINPUT2);
+       3 : INS <= doins4( iJUMP, iIFNOT, iINPUT2, Label_STREAM_FIFO);
       //   Take a byte off FIFO
        4 : INS <= doins5( iAPBWRT, iDAT, 2, 32'h00000000, 32'h00000001);
-      //   Byte 0    
+      //   Byte 0 - {6'b0000, CH_ID}
        5 : INS <= doins3( iWAIT, iIFNOT, iINPUT1);
-       6 : INS <= doins3( iAPBREAD, 2, 32'h00000004);
+       6 : INS <= doins3( iAPBREAD, 2, 32'h00000014);
        7 : INS <= doins4( iAPBWRT, iACC, 1, 32'h00000000);
-      //   Byte 1
+      //   Byte 1    
        8 : INS <= doins3( iWAIT, iIFNOT, iINPUT1);
-       9 : INS <= doins3( iAPBREAD, 2, 32'h00000008);
+       9 : INS <= doins3( iAPBREAD, 2, 32'h00000004);
       10 : INS <= doins4( iAPBWRT, iACC, 1, 32'h00000000);
-      //   Byte 2
+      //   Byte 1
       11 : INS <= doins3( iWAIT, iIFNOT, iINPUT1);
-      12 : INS <= doins3( iAPBREAD, 2, 32'h0000000C);
+      12 : INS <= doins3( iAPBREAD, 2, 32'h00000008);
       13 : INS <= doins4( iAPBWRT, iACC, 1, 32'h00000000);
-      //   Byte 3
+      //   Byte 2
       14 : INS <= doins3( iWAIT, iIFNOT, iINPUT1);
-      15 : INS <= doins3( iAPBREAD, 2, 32'h00000010);
+      15 : INS <= doins3( iAPBREAD, 2, 32'h0000000C);
       16 : INS <= doins4( iAPBWRT, iACC, 1, 32'h00000000);
-      17 : INS <= doins2( iJUMP, Label_STREAM_FIFO);
+      //   Byte 3
+      17 : INS <= doins3( iWAIT, iIFNOT, iINPUT1);
+      18 : INS <= doins3( iAPBREAD, 2, 32'h00000010);
+      19 : INS <= doins4( iAPBWRT, iACC, 1, 32'h00000000);
+      20 : INS <= doins2( iJUMP, Label_STREAM_FIFO);
       // $LOOP
-      18 : INS <= doins3( iWAIT, iIFNOT, iINPUT0);
-      19 : INS <= doins3( iAPBREAD, 1, 32'h00000004);
-      20 : INS <= doins2( iBITTST, 5);
-      21 : INS <= doins4( iJUMP, iIFNOT, iZERO, Label_OPC_POWER);
-      22 : INS <= doins2( iBITTST, 7);
-      23 : INS <= doins4( iJUMP, iIFNOT, iZERO, Label_OPC_WR_CONFIG);
-      24 : INS <= doins2( iBITTST, 4);
-      25 : INS <= doins4( iJUMP, iIFNOT, iZERO, Label_OPC_INIT);
-      26 : INS <= doins2( iBITTST, 6);
-      27 : INS <= doins4( iJUMP, iIFNOT, iZERO, Label_OPC_RD_CONFIG);
-      28 : INS <= doins2( iJUMP, Label_LOOP);
+      21 : INS <= doins3( iWAIT, iIFNOT, iINPUT0);
+      22 : INS <= doins3( iAPBREAD, 1, 32'h00000004);
+      23 : INS <= doins2( iBITTST, 5);
+      24 : INS <= doins4( iJUMP, iIFNOT, iZERO, Label_OPC_POWER);
+      25 : INS <= doins2( iBITTST, 7);
+      26 : INS <= doins4( iJUMP, iIFNOT, iZERO, Label_OPC_WR_CONFIG);
+      27 : INS <= doins2( iBITTST, 4);
+      28 : INS <= doins4( iJUMP, iIFNOT, iZERO, Label_OPC_INIT);
+      29 : INS <= doins2( iBITTST, 6);
+      30 : INS <= doins4( iJUMP, iIFNOT, iZERO, Label_OPC_RD_CONFIG);
+      31 : INS <= doins2( iJUMP, Label_LOOP);
       // $OPC_POWER
       //   Set SPISS
-      29 : INS <= doins5( iAPBWRT, iDAT, 0, 32'h00000024, 32'h00000001);
+      32 : INS <= doins5( iAPBWRT, iDAT, 0, 32'h00000024, 32'h00000001);
       //   Send spiopc_power opcode 
-      30 : INS <= doins5( iAPBWRT, iDAT, 0, 32'h00000028, 32'h00000030);
-      31 : INS <= doins2( iJUMP, Label_LOOP);
+      33 : INS <= doins5( iAPBWRT, iDAT, 0, 32'h00000028, 32'h00000030);
+      34 : INS <= doins2( iJUMP, Label_LOOP);
       // $OPC_WR_CONFIG
       //   Halt CoreSPI
-      32 : INS <= doins5( iAPBWRT, iDAT, 0, 32'h00000000, 32'h00000002);
+      35 : INS <= doins5( iAPBWRT, iDAT, 0, 32'h00000000, 32'h00000002);
       //   Set SPISS
-      33 : INS <= doins5( iAPBWRT, iDAT, 0, 32'h00000024, 32'h00000001);
+      36 : INS <= doins5( iAPBWRT, iDAT, 0, 32'h00000024, 32'h00000001);
       //   Send spiopc_write_config opcode
-      34 : INS <= doins5( iAPBWRT, iDAT, 0, 32'h0000000C, 32'h00000080);
+      37 : INS <= doins5( iAPBWRT, iDAT, 0, 32'h0000000C, 32'h00000080);
       //   Setup counter
-      35 : INS <= doins3( iLOADZ, iDAT, 32'h00000010);
+      38 : INS <= doins3( iLOADZ, iDAT, 32'h00000010);
       // $CONFIG_BYTES
-      36 : INS <= doins3( iWAIT, iIFNOT, iINPUT0);
-      37 : INS <= doins3( iAPBREAD, 1, 32'h00000004);
-      38 : INS <= doins4( iAPBWRT, iACC, 0, 32'h0000000C);
-      39 : INS <= doins1( iDECZ);
-      40 : INS <= doins4( iJUMP, iIFNOT, iZZERO, Label_CONFIG_BYTES);
-      41 : INS <= doins3( iWAIT, iIFNOT, iINPUT0);
-      42 : INS <= doins3( iAPBREAD, 1, 32'h00000004);
-      43 : INS <= doins4( iAPBWRT, iACC, 0, 32'h00000028);
+      39 : INS <= doins3( iWAIT, iIFNOT, iINPUT0);
+      40 : INS <= doins3( iAPBREAD, 1, 32'h00000004);
+      41 : INS <= doins4( iAPBWRT, iACC, 0, 32'h0000000C);
+      42 : INS <= doins1( iDECZ);
+      43 : INS <= doins4( iJUMP, iIFNOT, iZZERO, Label_CONFIG_BYTES);
+      44 : INS <= doins3( iWAIT, iIFNOT, iINPUT0);
+      45 : INS <= doins3( iAPBREAD, 1, 32'h00000004);
+      46 : INS <= doins4( iAPBWRT, iACC, 0, 32'h00000028);
       //   Enable CoreSPI back
-      44 : INS <= doins5( iAPBWRT, iDAT, 0, 32'h00000000, 32'h00000043);
-      45 : INS <= doins2( iJUMP, Label_LOOP);
+      47 : INS <= doins5( iAPBWRT, iDAT, 0, 32'h00000000, 32'h00000043);
+      48 : INS <= doins2( iJUMP, Label_LOOP);
       // $OPC_INIT
       //   Set SPISS
-      46 : INS <= doins5( iAPBWRT, iDAT, 0, 32'h00000024, 32'h00000001);
+      49 : INS <= doins5( iAPBWRT, iDAT, 0, 32'h00000024, 32'h00000001);
       //   Send spiopc_init opcode
-      47 : INS <= doins5( iAPBWRT, iDAT, 0, 32'h00000028, 32'h00000018);
-      48 : INS <= doins2( iJUMP, Label_STREAM_FIFO);
+      50 : INS <= doins5( iAPBWRT, iDAT, 0, 32'h00000028, 32'h00000018);
+      // $WAIT_SPI_WRITE
+      //   Wait for SPI to finish transmission
+      51 : INS <= doins3( iAPBREAD, 0, 32'h00000020);
+      52 : INS <= doins2( iBITTST, 7);
+      53 : INS <= doins4( iJUMP, iIFNOT, iZERO, Label_WAIT_SPI_WRITE);
+      54 : INS <= doins2( iJUMP, Label_STREAM_FIFO);
       // $OPC_RD_CONFIG
       //   Clear RX FIFO
-      49 : INS <= doins5( iAPBWRT, iDAT, 0, 32'h0000001C, 32'h00000001);
+      55 : INS <= doins5( iAPBWRT, iDAT, 0, 32'h0000001C, 32'h00000001);
       //   Halt CoreSPI
-      50 : INS <= doins5( iAPBWRT, iDAT, 0, 32'h00000000, 32'h00000002);
+      56 : INS <= doins5( iAPBWRT, iDAT, 0, 32'h00000000, 32'h00000002);
       //   Set SPISS
-      51 : INS <= doins5( iAPBWRT, iDAT, 0, 32'h00000024, 32'h00000001);
+      57 : INS <= doins5( iAPBWRT, iDAT, 0, 32'h00000024, 32'h00000001);
       //   Send spiopc_read_config opcode
-      52 : INS <= doins5( iAPBWRT, iDAT, 0, 32'h0000000C, 32'h00000040);
+      58 : INS <= doins5( iAPBWRT, iDAT, 0, 32'h0000000C, 32'h00000040);
       //   Setup counter to fill the TX FIFO
-      53 : INS <= doins3( iLOADZ, iDAT, 32'h00000010);
+      59 : INS <= doins3( iLOADZ, iDAT, 32'h00000010);
       // $FILL_TX_FIFO
-      54 : INS <= doins5( iAPBWRT, iDAT, 0, 32'h0000000C, 32'h00000000);
-      55 : INS <= doins1( iDECZ);
-      56 : INS <= doins4( iJUMP, iIFNOT, iZZERO, Label_FILL_TX_FIFO);
-      57 : INS <= doins5( iAPBWRT, iDAT, 0, 32'h00000028, 32'h00000000);
+      60 : INS <= doins5( iAPBWRT, iDAT, 0, 32'h0000000C, 32'h00000000);
+      61 : INS <= doins1( iDECZ);
+      62 : INS <= doins4( iJUMP, iIFNOT, iZZERO, Label_FILL_TX_FIFO);
+      63 : INS <= doins5( iAPBWRT, iDAT, 0, 32'h00000028, 32'h00000000);
       //   Enable CoreSPI back to send/receive 18 bytes
-      58 : INS <= doins5( iAPBWRT, iDAT, 0, 32'h00000000, 32'h00000043);
+      64 : INS <= doins5( iAPBWRT, iDAT, 0, 32'h00000000, 32'h00000043);
       // $WAIT_SPI_DONE
       //   Wait for spi to finish by checking ACTIVE flag in STAT register
-      59 : INS <= doins3( iAPBREAD, 0, 32'h00000020);
-      60 : INS <= doins2( iBITTST, 7);
-      61 : INS <= doins4( iJUMP, iIFNOT, iZERO, Label_WAIT_SPI_DONE);
+      65 : INS <= doins3( iAPBREAD, 0, 32'h00000020);
+      66 : INS <= doins2( iBITTST, 7);
+      67 : INS <= doins4( iJUMP, iIFNOT, iZERO, Label_WAIT_SPI_DONE);
       //   Omit the first byte read during OPCODE transmission
-      62 : INS <= doins3( iAPBREAD, 0, 32'h00000008);
+      68 : INS <= doins3( iAPBREAD, 0, 32'h00000008);
       //   Read 17 bytes of config from RX FIFO
-      63 : INS <= doins3( iLOADZ, iDAT, 32'h00000011);
+      69 : INS <= doins3( iLOADZ, iDAT, 32'h00000011);
       // $READ_BYTES
-      64 : INS <= doins3( iWAIT, iIFNOT, iINPUT1);
-      65 : INS <= doins3( iAPBREAD, 0, 32'h00000008);
-      66 : INS <= doins4( iAPBWRT, iACC, 1, 32'h00000000);
-      67 : INS <= doins1( iDECZ);
-      68 : INS <= doins4( iJUMP, iIFNOT, iZZERO, Label_READ_BYTES);
-      69 : INS <= doins2( iJUMP, Label_LOOP);
+      70 : INS <= doins3( iWAIT, iIFNOT, iINPUT1);
+      71 : INS <= doins3( iAPBREAD, 0, 32'h00000008);
+      72 : INS <= doins4( iAPBWRT, iACC, 1, 32'h00000000);
+      73 : INS <= doins1( iDECZ);
+      74 : INS <= doins4( iJUMP, iIFNOT, iZZERO, Label_READ_BYTES);
+      75 : INS <= doins2( iJUMP, Label_LOOP);
       default  : INS <= doins1(iNOP) ;
    endcase
                         end

@@ -21,9 +21,9 @@ output GLB;
     assign GND = GND_power_net1;
     assign VCC = VCC_power_net1;
     
-    PLL #( .VCOFREQUENCY(100.000) )  Core (.CLKA(CLKAP), .EXTFB(GND), 
+    PLL #( .VCOFREQUENCY(50.000) )  Core (.CLKA(CLKAP), .EXTFB(GND), 
         .POWERDOWN(POWERDOWN), .GLA(GLA), .LOCK(LOCK), .GLB(GLB), .YB()
-        , .GLC(), .YC(), .OADIV0(VCC), .OADIV1(GND), .OADIV2(GND), 
+        , .GLC(), .YC(), .OADIV0(GND), .OADIV1(GND), .OADIV2(GND), 
         .OADIV3(GND), .OADIV4(GND), .OAMUX0(GND), .OAMUX1(GND), 
         .OAMUX2(VCC), .DLYGLA0(GND), .DLYGLA1(GND), .DLYGLA2(GND), 
         .DLYGLA3(GND), .DLYGLA4(GND), .OBDIV0(GND), .OBDIV1(GND), 
@@ -37,11 +37,11 @@ output GLB;
         .DLYYC4(GND), .DLYGLC0(GND), .DLYGLC1(GND), .DLYGLC2(GND), 
         .DLYGLC3(GND), .DLYGLC4(GND), .FINDIV0(GND), .FINDIV1(GND), 
         .FINDIV2(GND), .FINDIV3(GND), .FINDIV4(GND), .FINDIV5(GND), 
-        .FINDIV6(GND), .FBDIV0(VCC), .FBDIV1(VCC), .FBDIV2(GND), 
-        .FBDIV3(GND), .FBDIV4(VCC), .FBDIV5(GND), .FBDIV6(GND), 
+        .FINDIV6(GND), .FBDIV0(VCC), .FBDIV1(GND), .FBDIV2(GND), 
+        .FBDIV3(VCC), .FBDIV4(GND), .FBDIV5(GND), .FBDIV6(GND), 
         .FBDLY0(GND), .FBDLY1(GND), .FBDLY2(GND), .FBDLY3(GND), 
         .FBDLY4(GND), .FBSEL0(VCC), .FBSEL1(GND), .XDLYSEL(GND), 
-        .VCOSEL0(VCC), .VCOSEL1(GND), .VCOSEL2(VCC));
+        .VCOSEL0(VCC), .VCOSEL1(VCC), .VCOSEL2(GND));
     PLLINT pllint1 (.A(CLKA), .Y(CLKAP));
     GND GND_power_inst1 (.Y(GND_power_net1));
     VCC VCC_power_inst1 (.Y(VCC_power_net1));
@@ -66,7 +66,7 @@ endmodule
 // GEN_BHV_VERILOG_VAL:F
 // MGNTIMER:F
 // MGNCMPL:T
-// DESDIR:C:/Users/kamil/OneDrive/Pulpit/cortex_m1_test/smartgen\PLL_clock
+// DESDIR:C:/Users/kamil/OneDrive/Pulpit/claude_system/GPX2_EVA_ProASIC3/smartgen\PLL_clock
 // GEN_BEHV_MODULE:F
 // SMARTGEN_DIE:IS4X4M1
 // SMARTGEN_PACKAGE:vq100
@@ -80,7 +80,7 @@ endmodule
 // PPHASESHIFT:0
 // DLYAVAL:1
 // OAMUX:4
-// SEC1FREQ:100.000000
+// SEC1FREQ:50.000000
 // UGLB:1
 // UYB:0
 // GLBDLYVAL:1

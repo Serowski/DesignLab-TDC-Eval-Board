@@ -1,0 +1,42 @@
+# Microsemi Physical design constraints file
+
+# Version: v11.9 SP6 11.9.6.7
+
+# Design Name: top_m1 
+
+# Input Netlist Format: edif 
+
+# Family: ProASIC3 , Die: A3P250 , Package: 100 VQFP , Speed grade: STD 
+
+# Date generated: Tue Nov 24 01:04:55 2026 
+
+
+#
+# IO banks setting
+#
+
+set_iobank Bank3 -vcci 2.50 -fixed no
+set_iobank Bank2 -vcci 3.30 -fixed no
+set_iobank Bank1 -vcci 2.50 -fixed no
+set_iobank Bank0 -vcci 3.30 -fixed no
+
+#
+# I/O constraints
+#
+
+set_io CLK_X2_5MHz -iostd LVCMOS33 -REGISTER No -RES_PULL None -pinname 26 -fixed yes
+set_io FRAME1N -iostd LVDS -REGISTER No -pinname 11 -fixed yes
+set_io FRAME1P -iostd LVDS -REGISTER No -pinname 10 -fixed yes
+set_io LCLKINN_TDC -iostd LVDS -OUT_DRIVE 24 -SLEW High -REGISTER No -OUT_LOAD 0 -pinname 13 -fixed yes
+set_io LCLKINP_TDC -iostd LVDS -OUT_DRIVE 24 -SLEW High -REGISTER No -OUT_LOAD 0 -pinname 15 -fixed yes
+set_io LCLKOUTN_TDC -iostd LVDS -REGISTER No -pinname 59 -fixed yes
+set_io LCLKOUTP_TDC -iostd LVDS -REGISTER No -pinname 58 -fixed yes
+set_io OSC_EN -iostd LVCMOS33 -REGISTER No -OUT_DRIVE 12 -SLEW High -RES_PULL None -SKEW Off -OUT_LOAD 35 -pinname 27 -fixed yes
+set_io RX -iostd LVCMOS33 -REGISTER No -RES_PULL None -pinname 83 -fixed yes
+set_io SDO1N -iostd LVDS -REGISTER No -pinname 7 -fixed yes
+set_io SDO1P -iostd LVDS -REGISTER No -pinname 6 -fixed yes
+set_io SPISCLKO -iostd LVCMOS33 -REGISTER No -OUT_DRIVE 12 -SLEW High -RES_PULL None -SKEW Off -OUT_LOAD 35 -pinname 42 -fixed yes
+set_io SPISDI -iostd LVCMOS33 -REGISTER No -RES_PULL None -pinname 40 -fixed yes
+set_io SPISDO -iostd LVCMOS33 -REGISTER No -OUT_DRIVE 12 -SLEW High -RES_PULL None -SKEW Off -OUT_LOAD 35 -pinname 41 -fixed yes
+set_io SPISS -iostd LVCMOS33 -REGISTER No -OUT_DRIVE 12 -SLEW High -RES_PULL None -SKEW Off -OUT_LOAD 35 -pinname 43 -fixed yes
+set_io TX -iostd LVCMOS33 -REGISTER No -OUT_DRIVE 12 -SLEW High -RES_PULL None -SKEW Off -OUT_LOAD 35 -pinname 82 -fixed yes
